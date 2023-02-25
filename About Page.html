@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chrissa olson">
+    <title>Chrissa Olson: About</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+         <ul>
+             <li><a href="index.html" target="_blank">
+                 <button type="button">
+                     <p>Home</p>
+                 </button>
+             </a></li>
+             <li><a href="About Page.html" target="_blank">
+                 <button type="button">
+                     <p>About</p>
+                 </button>
+             </a></li>
+             <li><a href="Work Page.html" target="_blank">
+                 <button type="button">
+                     <p>Work</p>
+                 </button>
+             </a></li>
+             <li><a href="Contact Page.html" target="_blank">
+                 <button type="button">
+                     <p>Contact</p>
+                 </button>
+             </a></li>
+         </ul>
+        </nav>
+        </header>
+        
+        <h3 class="SectionTitles">about.</h3>
+        <h4 class="SectionIntro">Hi! I'm a student at UC Berkeley, where I study English. In my free time, I bumble around town and ask people what they think about affordable housing.</h4>
+        <h5 class="SectionText">I'm the lead housing and transit reporter for the Daily Californian.</h5>
+        <h5 class="SectionText">I also write novels, poetry, and little bursts of prose.</h5>
+        <p class="SectionText">My most listened to song in 2022 was Washing Machine Heart by Mitski. I listened to it 560 times.</p>
+        <p class="SectionText">I enjoy editing in Photoshop and reading the news, preferably about one of my three favorite topics:</p>
+        <p class="SectionText">Your mom, your dad and your sister.</p>
+  
+        <div class="SectionText">
+        <button onclick="myFunction()">Click for a dad joke</button>
+
+        <div id="myDIV">What did the fish say when he hit the wall?</div>
+        </div>
+        
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.innerHTML === "What did the fish say when he hit the wall?") {
+              x.innerHTML = "Dam.";
+            } else {
+              x.innerHTML = "What did the fish say when he hit the wall?";
+            }
+          }
+        </script>
+</body>
+
+</html>
